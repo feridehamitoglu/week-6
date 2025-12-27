@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Yapılacaklar Listesi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>KODLUYORUZ</h1>
+      <h2>Yapılacaklar Listesi</h2>
+
+      <div class="input-area">
+        <input type="text" id="taskInput" placeholder="Bugün ne yapacaksın?" />
+        <button onclick="addTask()">Ekle</button>
+      </div>
+    </div>
+
+    <ul id="taskList">
+      <li>3 Litre Su İç <span class="close">×</span></li>
+      <li>Ödevleri Yap <span class="close">×</span></li>
+      <li>En Az 3 Saat Kodlama Yap <span class="close">×</span></li>
+      <li>Yemek Yap <span class="close">×</span></li>
+      <li>50 Sayfa Kitap Oku <span class="close">×</span></li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

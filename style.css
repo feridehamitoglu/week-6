@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.header {
+  background-color: #f7931e;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.input-area {
+  display: flex;
+  margin-top: 20px;
+}
+
+input {
+  width: 75%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+button {
+  width: 25%;
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #bbb;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 15px;
+  background: #f2f2f2;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+  background: #e6e6e6;
+}
+
+/* tamamlandı */
+ul li.completed {
+  background: #2c6b7c;
+  color: white;
+  text-decoration: line-through;
+}
+
+/* silme butonu */
+.close {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
